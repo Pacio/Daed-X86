@@ -137,3 +137,4 @@ cat luci-app-daed/daed/Makefile
 #sed -i '/include $(INCLUDE_DIR)\/cmake.mk/a PKG_BUILD_FLAGS:=no-werror' ../package/libs/libubox/Makefile
 #sed -i 's|TARGET_CFLAGS += -I$(STAGING_DIR)/usr/include|& -Wno-error=format-nonliteral -Wno-format-nonliteral|' ../package/libs/libubox/Makefile
 #cat ../package/libs/libubox/Makefile
+git clone --depth 1 --single-branch https://github.com/breeze303/openwrt-podman package/podman
